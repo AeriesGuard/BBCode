@@ -1,0 +1,31 @@
+{
+    "name": "aeriesguard/bbcode",
+    "description": "BBCode lexer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aka Guymelef"
+        },
+        {
+            "name": "Hypolite Petovan",
+            "email": "mrpetovan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
+	"autoload": {
+		"psr-4": {
+			"AeriesGuard\\": "src/"
+		}
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
